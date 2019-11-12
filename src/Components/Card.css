@@ -1,0 +1,47 @@
+.card-body {
+    text-align: justify;
+    border-radius: 2em;
+
+}
+
+.card-title {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.card-image {
+    padding: 1em;
+}
+
+.card.border-default {
+
+    border-radius: 2em;
+    height: 20em;
+}
+
+@media (max-width:1024px) {
+    .card-title {
+        width: 70%;
+
+    }
+
+    .card.border-default {
+        height: 22em;
+    }
+
+    .card-image {
+        padding: 0.5em;
+        width: 35%;
+        margin: auto;
+    }
+
+    @media (max-width:992px) {
+        .card.border-default {
+            margin: 3em 0em;
+            width: 70%;
+        }
+    }
+
+}

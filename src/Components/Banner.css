@@ -1,0 +1,213 @@
+.banner{
+    margin:0em 5rem;
+}
+.bannerLeft {
+    margin-top: 10em;
+    position: relative;
+    z-index: 0;
+}
+
+.bannerTitle {
+    font-size: 3em;
+    width: 40%;
+    font-weight: bold;
+    color: var(--mainBlue);
+}
+
+.bannerLeft p {
+    width: 30%;
+    color: var(--lightBlack);
+}
+
+
+.blue {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    margin-top: 13em;
+    margin-right: 4em;
+    width: 6em;
+
+}
+
+.father {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    margin-right: 10em;
+    margin-top: 7em;
+    width: 22em;
+}
+
+.yellow {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    right: 0;
+    margin-top: 18em;
+    margin-right: 32em;
+    width: 8em;
+
+
+}
+
+.nurse {
+    position: absolute;
+    z-index: 7;
+    /* top:0;
+    margin-top:15em; */
+    right: 0;
+    margin-top: 3em;
+    width: 24em;
+
+}
+
+.child {
+    position: absolute;
+    z-index: 4;
+    right: 0;
+    margin-right: 20em;
+    margin-top: 9em;
+    width: 25em;
+}
+
+.lightBlue {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    margin-top: 30em;
+    margin-right: 18em;
+    width: 10em;
+
+}
+
+.transparent {
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    width: 38em;
+    margin-top: 20em;
+}
+
+.whyTitle {
+    text-align: center;
+    margin-top: 15em;
+    position: relative;
+    font-weight: bold;
+}
+
+.why {
+    text-align: center;
+    padding-top: 2em;
+    position: relative;
+    z-index: 12;
+}
+
+.subheading {
+    padding: 1em 0em 0.3em 0em;
+    font-weight: bold;
+}
+
+.subheadingPara {
+    width: 90%;
+}
+
+
+.mother{
+    width:100%;
+    overflow: hidden;
+}
+.card>img:first-child{
+    height:15rem;
+}
+.campaignTitle {
+    margin: 2em 0em;
+    font-weight: bold;
+    text-align:left;
+}
+.cardTitle{
+font-weight:bold;
+padding-top:0.5rem;
+text-align:left;
+}
+.cardBody{
+  
+    text-align:justify;
+    
+}
+.campaignLink{
+    margin-top:1em;
+    display:flex;
+   
+    
+}
+.campaignLink a{
+    
+    margin-left:auto;
+}
+.lineLink{
+    float:right;
+    margin-right:2.2em;
+}
+.clear{
+ clear: both;
+}
+
+.seekFundsBody{
+    font-weight:bold;
+    width:30rem;
+    position: absolute;
+    z-index:3;
+    margin-top:15em;
+}
+
+.seekFundsBackground{
+    position:absolute;
+    z-index:1;
+    width:40em;
+    left:0;
+}
+
+.pregnant{
+    position:absolute;
+    z-index:3;
+    right:0;
+    margin-right:25rem;
+    margin-top:10em;
+    width:22rem;
+
+}
+.doctor{
+    position:absolute;
+    z-index:2;
+    right:0;
+    margin-right:4rem;
+    width:30rem;
+}
+.blog{
+    margin-top:50em;
+}
+.logoArea{
+    text-align:center;
+    margin-bottom:5em;
+}
+.logoArea h2{
+    padding-top:3em;
+    padding-bottom:2em;
+    width:20em;
+    margin:auto;
+}
+.guideArea{
+background-image:url("../images/campaignGuide.png");
+background-repeat:no-repeat;
+background-size:cover;
+padding:4em;
+}
+.guideAreaBody{
+    width:50em;
+    margin:auto;
+    text-align:center;
+    margin-top:2em;
+}

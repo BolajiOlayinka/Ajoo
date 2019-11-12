@@ -1,0 +1,120 @@
+.mainVerifiedOrg{
+    margin:0em 5em;
+}
+
+.verifiedArea{
+    margin-top:3em;
+    text-align:center;
+    margin-bottom:3em;
+
+}
+
+.tickArea{
+    height:5rem;
+}
+.tickSection{
+    width:100%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* height:3.5em; */
+}
+.tickSection>img{
+padding:1em;
+}
+.verifiedArea h5{
+    font-weight:bold;
+    font-size:1.2em;
+}
+.warning{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding:1em
+}
+.warning>img{
+    display:flex;
+    align-items: center;
+    padding:1em;
+}
+.warning>p{
+    display:flex;
+    align-items:center;
+    color:#E24C4B;
+    margin:0em;
+}
+.orgDetailsArea{
+    background-color:white;
+    padding: 2em 0em;
+    box-shadow: 0px 2px 8px 
+    rgba(0, 0, 0, 0.1), 0px 1px 20px rgba(0, 0, 0, 0.05);
+}
+.orgDetailsArea img{
+    width:100%;
+}
+/* .contactArea{
+    display:flex;
+}
+.contactArea p{
+    display:flex;
+    justify-content: flex-start;
+}
+.contactArea button{
+    display:flex;
+  align-items: flex-end;
+} */
+.contactArea{
+    margin-top:3em;
+}
+.social{
+    margin-top:1em;
+    display:flex;
+}
+.socialMedia{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left:2em;
+}
+
+.socialMedia>p>a>img{
+    width:2.5em;
+    padding:0.5em;
+}
+.socialMediaIcons>p>a>img{
+    width:1em;
+    padding:0.3em;
+}
+.socialMediaIcons>p{
+    padding:1.2em;
+}
+.mail{
+
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.socialMediaIcons{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-left:auto;
+    margin-right:2em;
+    width:10em;
+    
+}
+.socialMediaIcons>p>a>img{
+    width:2em;
+}
+#verCamp{
+    margin-top:2em;
+}
+.mark{
+    position:absolute;
+    z-index:4;
+    margin-top:12em;
+    background-color:transparent !important;
+    padding:0em!important;
+   
+}

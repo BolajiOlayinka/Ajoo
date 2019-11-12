@@ -48,6 +48,9 @@
     .navbar {
         padding: 0.5rem 2rem 0.5rem 2rem !important;
     }
+    .navbar-light .navbar-toggler{
+        margin-right:0.5em!important;
+    }
 
     .nav-link {
         display: flex !important;

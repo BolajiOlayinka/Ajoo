@@ -4,6 +4,7 @@ import "./Banner.css";
 import { Row, Col } from "reactstrap";
 import father from "../images/father.png";
 import nurse from "../images/nurse.png";
+import Nurse from "../images/Nursee.png";
 import blue from "../images/Blue.png";
 import child from "../images/Children.png";
 import lightBlue from "../images/lightBlue.png";
@@ -46,6 +47,7 @@ export default function Banner() {
         <img src={father} className="father" alt="father" />
         <img src={yellow} className="yellow" alt="yellow" />
         <img src={nurse} className="nurse" alt="nurse" />
+        <img src={Nurse} className="Nurse" alt="nurse" />
         <img src={child} className="child" alt="child" />
         <img src={lightBlue} className="lightBlue" alt="lightBlue" />
         <img

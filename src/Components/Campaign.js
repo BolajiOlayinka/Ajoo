@@ -11,7 +11,7 @@ export default function Campaign(props) {
        {props.campaignMark}
       <div style={props.cardStyle}>
         
-        <div className="card-body p-4">
+        <div className="card-body">
         <div className="buttonContainer">{props.ButtonContainer}
         <button className="campaignButton" id={props.buttonId} onClick={props.onClick}>{props.buttonText}</button>
          </div>    

@@ -317,8 +317,9 @@ padding:4em;
         width: 23em;
     }
     .child {
-       left:0;
-       margin-left:2em;
+       /* left:0; */
+       /* margin-left:2em; */
+       margin-right:27em;
         margin-top: 26em;
         width: 19em;
     }
@@ -352,8 +353,11 @@ padding:4em;
         margin-top: 20em;
        
     }
+    .subheadingPara {
+        width: 100%;
+    }
 }
-@media (max-width:425px){
+@media (min-width:425px) and (max-width:670px){
     .banner{
         margin:0em 2rem;
     }
@@ -393,8 +397,7 @@ padding:4em;
         width: 12em;
     }
     .child {
-       left:0;
-       margin-left:0.2em;
+        margin-right:16.5em;
         margin-top: 26.3em;
         width: 10em;
     }
@@ -429,11 +432,11 @@ padding:4em;
        
     }
     .subheadingPara {
-        width: 60%;
+        width: 100%;
         margin:auto;
     }
 }
-@media (max-width:375px){
+@media (min-width:375px) and (max-width:424.9px){
     .blue {
         margin-top: 31.5em;
         margin-right: 8.5em;
@@ -454,8 +457,7 @@ padding:4em;
         width: 12em;
     }
     .child {
-       left:0;
-       margin-left:0.2em;
+        margin-right:13em;
         margin-top: 26.3em;
         width: 10em;
     }
@@ -480,10 +482,54 @@ padding:4em;
         width: 4em;
     
     }
+    .whyTitle {
+        
+        margin-top: 11em;
+       
+    }
+    .subheadingPara {
+        width: 100%;
+    }
+    .centerButton {
+        margin-top: 1em;
+        margin-bottom: 1.5em
+    }
+    .campaignTitle {
+        margin: 1em 0em;
+        text-align:center;
+    }
+    .card>img:first-child {
+        height: 10rem;
+    }
+    .leftProg{
+        font-size:0.8em;
+    }
+    .rightProg{
+        font-size:0.8em;
+    }
+    .seekFundsBackground {
+        width:80%;
+    }
+    .seekFundsBody{
+        width:80%;
+        margin-top:3em;
+        font-size:0.8em;
+      
+    }
+    .pregnant{
+        display:none;
+    }
+    .doctor{
+        display:none;
+    }
+    .blog {
+        display:hidden;
+    }
 }
-@media (max-width:320px){
+@media (min-width:300px) and (max-width:374.9px){
     .bannerLeft {
         margin-top: 2em;
+        width:100%;
        
     }
     .bannerTitle {
@@ -495,7 +541,7 @@ padding:4em;
         width: 100%;
     }
     .blue {
-        margin-top: 29em;
+        margin-top: 31em;
         margin-right: 8em;
         width: 3em;
     
@@ -505,25 +551,24 @@ padding:4em;
         display:none;
     }
     .Nurse{
-        margin-top:24.5em;
+        margin-top:26.5em;
         margin-right:2em;
         width: 11em;
     }
     .child {
-       left:0;
-       margin-left:0em;
-        margin-top: 26.7em;
+        margin-right:12em;
+        margin-top: 28.7em;
         width: 8em;
     }
     .father {
         margin-right: 0em;
-        margin-top: 22em;
+        margin-top: 24em;
         width: 10em;
     }
     
     .yellow {
        
-        margin-top: 39.5em;
+        margin-top: 41.5em;
         margin-right: 10.9em;
         width: 3em;
     
@@ -531,7 +576,7 @@ padding:4em;
     }
     
     .lightBlue {
-        margin-top: 24.2em;
+        margin-top: 26.2em;
         margin-right: 10.4em;
         width: 4em;
     

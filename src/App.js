@@ -11,6 +11,8 @@ import Search from './Search';
 import How from './How';
 import Terms from './Terms';
 import Privacy from './Privacy';
+import Volunteer from './Volunteer';
+import SignIn from './SignIn';
 
 
 
@@ -28,6 +30,8 @@ export default class App extends Component {
        <Route exact path="/How" component={How}/>
        <Route exact path="/Terms" component={Terms}/>
        <Route exact path="/Privacy" component={Privacy}/>
+       <Route path="/Volunteer" component={Volunteer}/>
+       <Route path="/Login" component={SignIn}/>
        <Route path="/default" component={Default}/>
      </Switch>
      </BrowserRouter>

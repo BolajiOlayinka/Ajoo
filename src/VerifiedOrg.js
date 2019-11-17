@@ -38,7 +38,8 @@ export default function VerifiedOrg() {
             </div>
             <div className="warning">
                 <img src={warning} alt="warning"/>
-                <p>Report this Organization</p>
+                <p><a href="/">Report this Organization</a></p>
+                
             </div>
 
             <div className="orgDetailsArea">

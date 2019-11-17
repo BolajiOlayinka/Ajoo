@@ -22,19 +22,19 @@ const Header = props => {
   return (
     <div>
       <Navbar color="white" light expand="md">
-        <NavbarBrand href="/">
+        <NavbarBrand href="./">
           <img src={logo} alt="logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <NavLink href="#">How it Works</NavLink>
+          <NavLink href="./How">How it Works</NavLink>
 
-          <NavLink href="#">Voluunteers</NavLink>
+          <NavLink href="/Volunteer">Volunteers</NavLink>
 
-          <NavLink href="#">Verified Pages</NavLink>
+          <NavLink href="./Verified Organizations">Verified Pages</NavLink>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">
+              <NavLink href="/Search">
                 <img src={search} alt="search" className="search" />
                 Search
               </NavLink>
@@ -43,7 +43,7 @@ const Header = props => {
             <img src={line} alt="search" className="line" />
 
             <NavItem>
-              <NavLink href="/">Sign In</NavLink>
+              <NavLink href="/login">Sign In</NavLink>
             </NavItem>
             <button className="blueButton">Start campaign</button>
           </Nav>

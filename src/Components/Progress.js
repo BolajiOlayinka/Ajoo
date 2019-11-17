@@ -26,8 +26,8 @@ export default function progress() {
     return (
         <div>
         <div style={style}>
-            <div style={leftProg}>72% complete</div>
-            <div style={rightProg}>N 3,384,892.00 Funded</div>
+            <div style={leftProg} className="leftProg">72% complete</div>
+            <div style={rightProg} className="rightProg">N 3,384,892.00 Funded</div>
           </div>
 
           <Progress color="success p-5" style={bar}value={72} />

@@ -43,5 +43,10 @@
             width: 70%;
         }
     }
+    @media (max-width:375px){
+        .card-body{
+            padding:1em;
+        }
+    }
 
 }

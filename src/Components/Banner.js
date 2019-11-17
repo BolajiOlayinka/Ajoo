@@ -66,7 +66,7 @@ export default function Banner() {
         <h3 className="whyTitle">Why Ajoo ?</h3>
         <div className="why">
           <Row>
-            <Col lg="3" md="6" sm="6" xs="12">
+            <Col lg="3" md="6 mb-2" sm="6 mb-3" xs="12">
               <img src={mouse} alt="mouse" />
               <h6 className="subheading"> Free and Simple Set-Up</h6>
               <img src={line} alt="line" />
@@ -75,7 +75,7 @@ export default function Banner() {
                 deadlines.
               </p>
             </Col>
-            <Col lg="3" md="6" sm="6" xs="12">
+            <Col lg="3" md="6 mb-2" sm="6 mb-3" xs="12">
               <img src={badge} alt="badge" />
               <h6 className="subheading"> Free and Simple Set-Up</h6>
               <img src={line} alt="line" />
@@ -84,7 +84,7 @@ export default function Banner() {
                 volunteers
               </p>
             </Col>
-            <Col lg="3" md="6" sm="6" xs="12">
+            <Col lg="3" md="6 mb-2" sm="6 mb-3" xs="12">
               <img src={headPhone} alt="headPhone" />
               <h6 className="subheading"> Free and Simple Set-Up</h6>
               <img src={line} alt="line" />
@@ -93,7 +93,7 @@ export default function Banner() {
                 or night
               </p>
             </Col>
-            <Col lg="3" md="6" sm="6" xs="12">
+            <Col lg="3" md="6 mb-2" sm="6 mb-2" xs="12">
               <img src={shield} alt="shield" />
               <h6 className="subheading"> Free and Simple Set-Up</h6>
               <img src={line} alt="line" />
@@ -131,8 +131,6 @@ export default function Banner() {
                 <a href="index.html"> View Campaign</a>{" "}
                 <img src={arrow} alt="" />
               </div>
-              {/* <img src={line} alt="line" className="lineLink" />
-          <div className="clear"></div> */}
             </Col>
           </Row>
           <div className="campaigns">

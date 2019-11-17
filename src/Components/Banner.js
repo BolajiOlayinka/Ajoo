@@ -347,16 +347,16 @@ export default function Banner() {
         <div className="logoArea">
           <h2>Trusted by Nigeria’s biggest Non-profit organizations</h2>
           <Row>
-            <Col lg="3" md="3" sm="3" xs="3">
+            <Col lg="3" md="3" sm="3" xs="6 mb-1">
               <img src={Trust1} alt="Trust1" />
             </Col>
-            <Col lg="3" md="3" sm="3" xs="3">
+            <Col lg="3" md="3" sm="3" xs="6  mb-1">
               <img src={Trust2} alt="Trust2" />
             </Col>
-            <Col lg="3" md="3" sm="3" xs="3">
+            <Col lg="3" md="3" sm="3" xs="6  mb-1">
               <img src={Trust3} alt="Trust3" />
             </Col>
-            <Col lg="3" md="3" sm="3" xs="3">
+            <Col lg="3" md="3" sm="3" xs="6  mb-1">
               <img src={Trust4} alt="Trust4" />
             </Col>
           </Row>

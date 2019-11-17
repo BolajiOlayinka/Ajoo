@@ -91,7 +91,7 @@ export default function Footer() {
       <hr className="footerLine" />
       <div className="footerEnd">
       <Row>
-        <Col lg="4" md="4" sm="4" xs="6">
+        <Col lg="4" md="4" sm="4" xs="12">
         <p>
           <a href="index.html">Download Our Mobile App</a>
          
@@ -100,16 +100,16 @@ export default function Footer() {
         <img src={Appstore} alt="Appstore" className="app"/>
           <img src={Googleplay} alt="googleplay" className="google"/></a></p>
         </Col>
-        <Col lg="4" md="4" sm="4" xs="6">
+        <Col lg="4" md="4" sm="4" xs="12">
         <a href="index.html" className="copyRight">
           <p>© Bolaji Olayinka 2019</p>
         </a>
         </Col>
-        <Col lg="4 pr-5" md="4" sm="4" xs="6">
+        <Col lg="4 pr-5" md="4 pr-3" sm="4" xs="12 pr-0">
         <a href="index.html">
-                <img src={twitter} alt="twitter" className="pr-3" />
-                <img src={facebook} alt="facebook" className="pr-3"/>
-                <img src={instagram} alt="instagram" className="pr-3"/>
+                <img src={twitter} alt="twitter" className="" />
+                <img src={facebook} alt="facebook" className=""/>
+                <img src={instagram} alt="instagram" className=""/>
                 
               </a>
       </Col>

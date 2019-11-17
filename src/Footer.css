@@ -67,7 +67,7 @@
 
 @media(max-width:1024px) {
     .footer {
-        margin-top: 49.4em;
+        margin-top: 0em;
     }
 }
 
@@ -91,7 +91,7 @@
 
 @media(max-width:425px) {
     .footer {
-        margin-top: 50em;
+        margin-top: 0em;
     }
 
     .footerEnd>p>a {

@@ -20,8 +20,9 @@ export default class App extends Component {
   render(){
     return (
       <React.Fragment>
-     <Navbar/>
+    
      <BrowserRouter>
+      <Navbar/>
      <Switch>
        <Route exact path="/" component={Home}/>
        <Route exact path="/Verified" component={Verified}/>

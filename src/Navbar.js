@@ -4,6 +4,7 @@ import logo from "./images/logo_1.png";
 import search from "./images/search.png";
 import line from "./images/Line.png";
 import "./Components/Button.css";
+import {Link} from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -27,16 +28,17 @@ const Header = props => {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <NavLink href="./How">How it Works</NavLink>
+          <NavLink > <Link to="./How">How it Works</Link></NavLink>
 
-          <NavLink href="/Volunteer">Volunteers</NavLink>
+          <NavLink><Link to ="/Volunteer">Volunteers</Link></NavLink>
 
-          <NavLink href="./Verified Organizations">Verified Pages</NavLink>
+          <NavLink ><Link to="./Verified Organizations">Verified Pages</Link></NavLink>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/Search">
-                <img src={search} alt="search" className="search" />
+              <NavLink>
+                <img src={search} alt="search" className="search" /><Link to ="/Search">
                 Search
+                </Link>
               </NavLink>
             </NavItem>
 

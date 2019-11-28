@@ -79,3 +79,19 @@
 .warningText a{
     text-decoration:none;
 }
+@media (max-width:992px){
+    .data{
+    width:100%;
+    }
+    .volunteerCard{
+        padding:1em 0.5em;
+    }
+    .volunteerCard:hover{
+        transform:scale(1);
+    }
+    .volunteerBanner {
+        width: 80%;
+        text-align: center;
+        margin: 3rem auto;
+    }
+}

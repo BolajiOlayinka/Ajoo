@@ -115,7 +115,7 @@ export default function Footer() {
       </Col>
       </Row>
        
-        <div class="footerEndIcon">
+        <div className="footerEndIcon">
          
         </div>
         

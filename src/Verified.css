@@ -95,3 +95,33 @@
 .btnBottom button{
     margin:0em 0.5em;
 }
+@media (max-width: 1024px){
+.verifiedBannerBody p{
+    width:65%;
+}
+@media (max-width: 992px){
+    .verifiedBannerBody{
+        width:80%;
+    }
+}
+
+}
+@media (max-width: 425px){
+    .verifiedBannerBody{
+        width:100%;
+    }
+    .verifiedBannerBody p{
+        width:90%;
+    }
+    .verifiedBannerBody h1{
+        font-size: 2em;
+    }
+
+}
+@media (max-width: 375px){
+    
+    .verifiedBannerBody h1{
+        font-size: 1.6em;
+    }
+    
+}

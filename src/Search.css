@@ -76,3 +76,27 @@
 .radioClass::after {
     color: #4263EB;
 }
+@media (max-width: 425px){
+    .searchBanner {
+        padding-top:2.8rem;
+        height:15em;
+    }
+}
+@media (max-width: 375px){
+    
+    .searchBanner {
+        height:15em;
+        padding-top:2.8rem;
+    }
+    
+    
+}
+@media (max-width: 320px){
+    
+    .searchBanner {
+        height:15em;
+        padding-top:2em;
+    }
+    
+    
+}

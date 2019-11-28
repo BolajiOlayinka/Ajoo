@@ -38,7 +38,7 @@ export default function Volunteer() {
       </div>
       <Container>
         <Row>
-          <Col lg="6 mt-5" md="6" sm="12" xs="12">
+          <Col lg="6 mt-5" md="12" sm="12" xs="12">
             <p>
               Register as a volunteer and help verify that campaigns are true
               and sincere. Volunteers are assigned to campaigns based on
@@ -67,7 +67,7 @@ export default function Volunteer() {
               there is any form of doubt at all.
             </p>
           </Col>
-          <Col lg="6 mt-5" md="6" sm="12" xs="12">
+          <Col lg="6 mt-5" md="12" sm="12" xs="12">
             <img src={data} alt="data" className="data"/>
           </Col>
         </Row>
@@ -79,7 +79,7 @@ export default function Volunteer() {
           <div className="volunteerArea">
               <Container>
                   <Row>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6"  sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar4} alt="avatar"/>}
                                cardStar={<img src={star1} alt="star"/>}
@@ -88,7 +88,7 @@ export default function Volunteer() {
                                warningText="Report Volunteer"
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6"  sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar1} alt="avatar"/>}
                                cardStar={<img src={star2} alt="star"/>}
@@ -96,7 +96,7 @@ export default function Volunteer() {
                                
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6"  sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar2} alt="avatar"/>}
                                cardStar={<img src={star3} alt="star"/>}
@@ -104,7 +104,7 @@ export default function Volunteer() {
                              
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6" sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar3} alt="avatar"/>}
                                cardStar={<img src={star2} alt="star"/>}
@@ -112,7 +112,7 @@ export default function Volunteer() {
                                
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6"  sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar1} alt="avatar"/>}
                                cardStar={<img src={star3} alt="star"/>}
@@ -120,7 +120,7 @@ export default function Volunteer() {
                                
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6" sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar2} alt="avatar"/>}
                                cardStar={<img src={star1} alt="star"/>}
@@ -128,7 +128,7 @@ export default function Volunteer() {
                               
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6" sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar4} alt="avatar"/>}
                                cardStar={<img src={star3} alt="star"/>}
@@ -137,7 +137,7 @@ export default function Volunteer() {
                               
                            />
                       </Col>
-                      <Col lg="3" md="3" sm="6" xs="6">
+                      <Col lg="3" md="6" sm="12" xs="12">
                            <Card
                                cardImage={<img src={avatar1} alt="avatar"/>}
                                cardStar={<img src={star1} alt="star"/>}

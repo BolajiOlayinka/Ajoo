@@ -1,0 +1,91 @@
+.card>img:first-child{
+    height:15rem;
+}
+.campaignTitle {
+    margin: 2em 0em;
+    font-weight: bold;
+    text-align:left;
+}
+.cardTitle{
+font-weight:bold;
+padding-top:0.5rem;
+text-align:left;
+}
+.cardBody{
+  
+    text-align:justify;
+    
+}
+.campaignLink{
+    margin-top:1em;
+    display:flex;
+   
+    
+}
+.campaignLink a{
+    
+    margin-left:auto;
+}
+.lineLink{
+    float:right;
+    margin-right:2.2em;
+}
+.clear{
+ clear: both;
+}
+@media (max-width:1024px){
+    .card>img:first-child {
+        height: 12rem;
+    }
+    .leftProg{
+        font-size:0.8em;
+    }
+    .rightProg{
+        font-size:0.8em;
+    }
+}
+
+@media (min-width:425px) and (max-width:670px){
+    .campaignTitle {
+        margin: 1em 0em;
+        text-align:center;
+    }
+    .leftProg{
+        font-size:0.8em;
+    }
+    .rightProg{
+        font-size:0.8em;
+    }
+}
+@media (min-width:375px) and (max-width:424.9px){
+    .campaignTitle {
+        margin: 1em 0em;
+        text-align:center;
+    }
+    .card>img:first-child {
+        height: 10rem;
+    }
+    .leftProg{
+        font-size:0.8em;
+    }
+    .rightProg{
+        font-size:0.8em;
+    }
+
+}
+@media (min-width:300px) and (max-width:374.9px){
+    .campaignTitle {
+        margin: 1em 0em;
+        text-align:center;
+    }
+    .card>img:first-child {
+        height: 10rem;
+    }
+    .leftProg{
+        font-size:0.8em;
+    }
+    .rightProg{
+        font-size:0.8em;
+    }
+
+}

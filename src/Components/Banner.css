@@ -120,41 +120,7 @@
     width:100%;
     overflow: hidden;
 }
-.card>img:first-child{
-    height:15rem;
-}
-.campaignTitle {
-    margin: 2em 0em;
-    font-weight: bold;
-    text-align:left;
-}
-.cardTitle{
-font-weight:bold;
-padding-top:0.5rem;
-text-align:left;
-}
-.cardBody{
-  
-    text-align:justify;
-    
-}
-.campaignLink{
-    margin-top:1em;
-    display:flex;
-   
-    
-}
-.campaignLink a{
-    
-    margin-left:auto;
-}
-.lineLink{
-    float:right;
-    margin-right:2.2em;
-}
-.clear{
- clear: both;
-}
+
 
 .seekFundsBody{
     font-weight:bold;
@@ -279,15 +245,7 @@ padding:4em;
         width: 35em;
         margin-top: 24em;
     }
-    .card>img:first-child {
-        height: 15rem;
-    }
-    .leftProg{
-        font-size:0.8em;
-    }
-    .rightProg{
-        font-size:0.8em;
-    }
+    
     .pregnant{
         position:absolute;
         z-index:3;
@@ -303,6 +261,16 @@ padding:4em;
         right:0;
         margin-right:5rem;
         width:23rem;
+    }
+    .guideArea{
+        padding:1em;
+    }
+    .guideAreaBody{
+        width:100%;
+    }
+    .guideAreaBody p{
+        width:80%;
+        margin:auto;
     }
 }
 @media (max-width:992px){
@@ -345,8 +313,7 @@ padding:4em;
         width: 23em;
     }
     .child {
-       /* left:0; */
-       /* margin-left:2em; */
+       
        margin-right:27em;
         margin-top: 26em;
         width: 19em;
@@ -384,6 +351,17 @@ padding:4em;
     .subheadingPara {
         width: 100%;
     }
+    .guideArea{
+        padding:1em;
+    }
+    .guideAreaBody{
+        width:100%;
+    }
+    .guideAreaBody p{
+        width:80%;
+        margin:auto;
+    }
+    
 }
 @media (min-width:425px) and (max-width:670px){
     .banner{
@@ -467,19 +445,7 @@ padding:4em;
         margin-top: 1em;
         margin-bottom: 1.5em
     }
-    .campaignTitle {
-        margin: 1em 0em;
-        text-align:center;
-    }
-    .card>img:first-child {
-        height: 15rem;
-    }
-    .leftProg{
-        font-size:0.8em;
-    }
-    .rightProg{
-        font-size:0.8em;
-    }
+    
     .seekFundsBackground {
         width:80%;
     }
@@ -571,19 +537,7 @@ padding:4em;
         margin-top: 1em;
         margin-bottom: 1.5em
     }
-    .campaignTitle {
-        margin: 1em 0em;
-        text-align:center;
-    }
-    .card>img:first-child {
-        height: 10rem;
-    }
-    .leftProg{
-        font-size:0.8em;
-    }
-    .rightProg{
-        font-size:0.8em;
-    }
+   
     .seekFundsBackground {
         width:80%;
     }
@@ -684,19 +638,7 @@ padding:4em;
         margin-top: 1em;
         margin-bottom: 1.5em
     }
-    .campaignTitle {
-        margin: 1em 0em;
-        text-align:center;
-    }
-    .card>img:first-child {
-        height: 10rem;
-    }
-    .leftProg{
-        font-size:0.8em;
-    }
-    .rightProg{
-        font-size:0.8em;
-    }
+   
     .seekFundsBackground {
         width:100%;
     }
@@ -737,9 +679,3 @@ padding:4em;
     
     
 }
-/* @media (max-width:778px){
-    .banner{
-        margin:0em 3rem;
-    }
-
-} */

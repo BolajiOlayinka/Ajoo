@@ -1,36 +1,45 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './Button.css';
 import Progress from './Progress';
+import './CampaignCard.css';
 
 
-export default function Campaign(props) {
+
+export default class Campaign extends Component {
+  render() {
+    
     return (
-        <div>
-            <div className="card">
-        {props.campaignImage}
-       {props.campaignMark}
-      <div style={props.cardStyle}>
-        
-        <div className="card-body">
-        <div className="buttonContainer">{props.ButtonContainer}
-        <button className="campaignButton" id={props.buttonId} onClick={props.onClick}>{props.buttonText}</button>
-         </div>    
-            <div className="cardProgress"><Progress/></div>
-          <h5 className="cardTitle">{props.cardTitle}</h5>
-          <p className="cardBody">{props.cardText}</p>
-          {props.children}
-          <div className="campaignLink">{props.campaignLink}
-        <a href="index.html" className="campaignViewLink">{props.campaignViewLink}</a> 
-        {props.linkImg}
-        </div>
-        </div>
-        
+      <div>
+      
+          <div className="card">
+      {this.props.campaignImage}
+     {this.props.campaignMark}
+    <div style={this.props.cardStyle}>
+      
+      <div className="card-body">
+      <div className="buttonContainer">{this.props.ButtonContainer}
+      <button className="campaignButton" id={this.props.buttonId} onClick={this.props.onClick}>{this.props.buttonText}</button>
+       </div>    
+          <div className="cardProgress"><Progress/></div>
+        <h5 className="cardTitle">{this.props.cardTitle}</h5>
+        <p className="cardBody">{this.props.cardText}</p>
+        {this.props.children}
+        <div className="campaignLink">{this.props.campaignLink}
+      <a href="index.html" className="campaignViewLink">{this.props.campaignViewLink}</a> 
+      {this.props.linkImg}
       </div>
+      </div>
+      
     </div>
-    </div>
-        
-    )
+  </div>
+ 
+  </div>
+      
+  )
+  }
 }
+
+
 
 
 

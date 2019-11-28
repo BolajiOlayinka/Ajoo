@@ -45,13 +45,13 @@ export default function VerifiedOrg() {
             <div className="orgDetailsArea">
             <Container>
                 <Row>
-                    <Col lg="4" md="4" sm="6" xs="12">
+                    <Col lg="4" md="4" sm="6" xs="12 mt-2 mb-2">
                         <img src={verfied1} alt="verif"/>
                     </Col>
-                    <Col lg="4" md="4" sm="6" xs="12">
+                    <Col lg="4" md="4" sm="6" xs="12 mt-2  mb-2">
                         <img src={verfied2} alt="verify"/>
                     </Col>
-                    <Col lg="4" md="4" sm="6" xs="12">
+                    <Col lg="4" md="4" sm="6" xs="12 mt-2  mb-2">
                         <img src={verfied3} alt="verifyy"/>
                     </Col>
                 </Row>
@@ -59,11 +59,11 @@ export default function VerifiedOrg() {
                 <div className="contactArea">
                 <Container>
                 <Row>
-                    <Col lg="4" sm="4" md="4" xs="4">
+                    <Col lg="4" sm="4" md="4" xs="8">
                     <p> No 123, Victoria Street, Lagos Junction, Abuja.</p>
 
                     </Col>
-                    <Col lg="4" sm="4" md="4" xs="4">
+                    <Col lg="4" sm="4" md="4" xs="d-none">
                         
                     </Col>
                     <Col lg="4 text-right" sm="4 text-right" md="4 text-right" xs="4 text-right">

@@ -12,7 +12,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
 } from "reactstrap";
 
 const Header = props => {
@@ -28,24 +27,24 @@ const Header = props => {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <NavLink > <Link to="./How">How it Works</Link></NavLink>
+          <b className= "nav-link"><Link to="./How">How it Works</Link></b>
 
-          <NavLink><Link to ="/Volunteer">Volunteers</Link></NavLink>
+          <b className= "nav-link"><Link to ="/Volunteer">Volunteers</Link></b>
 
-          <NavLink ><Link to="./Verified Organizations">Verified Pages</Link></NavLink>
+          <b className= "nav-link"><Link to="./Verified">Verified Pages</Link></b>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink>
+            <b className= "nav-link">
                 <img src={search} alt="search" className="search" /><Link to ="/Search">
                 Search
                 </Link>
-              </NavLink>
+              </b>
             </NavItem>
 
             <img src={line} alt="search" className="line" />
 
             <NavItem>
-              <NavLink href="/login">Sign In</NavLink>
+            <b className= "nav-link"> <Link to="/login">Sign In</Link></b>
             </NavItem>
             <button className="blueButton">Start campaign</button>
           </Nav>

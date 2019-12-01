@@ -13,6 +13,10 @@ import Terms from './Terms';
 import Privacy from './Privacy';
 import Volunteer from './Volunteer';
 import SignIn from './SignIn';
+import SignUp from './SignUp';
+import individual from './individualSignUp';
+import Organisation from './OrganisationSignup';
+
 
 
 
@@ -33,6 +37,9 @@ class App extends Component {
        <Route exact path="/Privacy" component={Privacy}/>
        <Route path="/Volunteer" component={Volunteer}/>
        <Route path="/Login" component={SignIn}/>
+       <Route path="/SignUp" component={SignUp}/>
+       <Route path="/Individual" component={individual}/>
+       <Route path="/Organisation" component={Organisation}/>
        <Route path="/default" component={Default}/>
      </Switch>
      </BrowserRouter>

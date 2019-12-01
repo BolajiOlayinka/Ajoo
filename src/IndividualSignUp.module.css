@@ -1,0 +1,191 @@
+.signupimage {
+    
+    text-align: center;
+}
+.signupimage img{
+    width: 65%;
+}
+.imageSignup {
+    
+    text-align: center;
+}
+.imageSignup img{
+    width: 100%;
+}
+
+.body {
+    padding: 5em;
+    background-color: #E5E5E5;
+}
+
+.sign {
+    /* margin-bottom:3em; */
+    align-content: center;
+    width: 70%;
+    margin: 0em auto 3em;
+
+}
+
+.label {
+    margin-bottom: 0.5em !important;
+    font-size: 0.8em;
+}
+
+.group {
+    width: 70%;
+    margin: auto;
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2em;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+}
+
+.start {
+   
+
+    font-weight: bold;
+}
+
+.up {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1.5em;
+    font-weight: bold;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1.5em;
+
+    color: #0072A3
+}
+
+.btnSign {
+    background-color: #0072A3 !important;
+    width: 100%;
+    padding: 0.5em !important;
+    border-radius: 1em;
+    border-style: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-color: transparent;
+    font-size: 0.7em !important;
+
+}
+
+.icon {
+    margin-right: 0.5em;
+}
+
+.btnSign2 {
+    background-color: orangered !important;
+    width: 100%;
+    padding: 0.5em !important;
+    border-radius: 1em;
+    border-style: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-color: transparent;
+    font-size: 0.7em !important;
+
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.agree {
+    width: 80%;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    background-color: #0072A3 !important;
+    width: 10em;
+    padding: 1em;
+    border-radius: 1em;
+    border-style: none;
+    border-color: transparent;
+    margin-top: 1em;
+    font-size: 0.7em !important;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+@media(max-width:1024px) {
+    .group {
+        width: 85%;
+        margin: auto;
+    }
+    .sign {
+        width:85%;
+        margin: 0em auto 2em;
+    }
+    .signupimage img{
+        width: 75%;
+    }
+}
+
+@media(max-width:991px) {
+    .group {
+        width: 100%;
+        margin: auto;
+    }
+    .sign {
+        width:100%;
+        margin: 0em auto 1em;
+    }
+    .body {
+        padding: 1em;
+       }
+    .signupimage img{
+        width: 100%;
+    }
+
+    .btnSign {
+        font-size: 0.6em !important;
+        padding: 0.6em !important;
+
+    }
+
+    .signupimage {
+        width: 100%;
+    }
+    .imageSignup {
+    
+       display:none;
+    }
+}
+
+@media(max-width: 425px) {
+    .signupimage {
+        display: none;
+    }
+    .body {
+        padding: 2em;
+       }
+}
+@media(max-width: 375px) {
+    .signupimage {
+        display: none;
+    }
+   .body {
+    padding: 1em;
+   }
+}

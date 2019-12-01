@@ -1,0 +1,32 @@
+.signUpBody{
+    text-align:center;
+    background-color:#E5E5E5;
+}
+.signUpHead{
+    text-align:center;
+    padding:2rem;
+    font-weight:bold;
+}
+.btn{
+    background-color: #0072A3!important;
+    width:15em;
+    padding:1em;
+    border-radius:1em;
+    border-style:none;
+    border-color:transparent;
+    margin-top:3em;
+}
+
+
+
+@media (max-width:425px){
+    .signup{
+        width:100%;
+        
+    }
+    .signUpHead{
+        
+        padding:2em;
+
+    }
+}

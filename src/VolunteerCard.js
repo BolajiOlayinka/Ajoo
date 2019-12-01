@@ -4,7 +4,7 @@ export default function VolunteerCard(props) {
     return (
         <div>
              <div className="volunteerCard">
-                                <div class="img-top">
+                                <div className="img-top">
                                 {props.cardImage}
                                    
                                 </div>

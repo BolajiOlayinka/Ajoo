@@ -39,7 +39,7 @@ export default class Search extends Component {
         <div className="mainPage">
           <div className="filter">
             <Row>
-              <Col lg="3 mt-5 mb-5 border-right" md="3" sm="3" xs="4">
+              <Col lg="3 mt-5 mb-5 border-right" md="12" sm="12" xs="12">
                 <Container>
                   <div className="campaignFilters">
                     <h5 className="filterTitle">Campaign Filters</h5>
@@ -135,10 +135,10 @@ export default class Search extends Component {
                   </div>
                 </Container>
               </Col> 
-              <Col lg="9 mb-5" md="9" sm="9" xs="8">
+              <Col lg="9 mb-5" md="12" sm="12" xs="12">
                 <Container>
                   <Row>
-                    <CampaignList campaignData={searchCampaign} />
+                    <CampaignList campaignData={searchCampaign}/>
                   </Row>
                 </Container>
               </Col>

@@ -45,7 +45,7 @@
     }
     @media (max-width:375px){
         .card-body{
-            padding:1em;
+            padding:1em!important;
         }
     }
 

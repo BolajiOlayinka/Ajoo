@@ -56,7 +56,7 @@ export default function Banner() {
           alt="transparent"
         />
         <div className="bannerLeft">
-          <h2 class="bannerTitle">Donations, Rewards. Community</h2>
+          <h2 className="bannerTitle">Donations, Rewards. Community</h2>
           <p>
             We are building a community where people with critical financial
             needs get the necessary assistance from well meaning Nigerians.{" "}

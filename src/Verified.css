@@ -1,127 +1,223 @@
-.mainPage{
-    margin:0em 5rem;
+.mainPage {
+    margin: 0em 5rem;
 }
-.verifiedBanner{
+
+.verifiedBanner {
     background-image: url("./images/Mask Group.png");
-    background-repeat:no-repeat;
-    background-size:100%;
-    height:30em;
-    text-align:center;
-    padding-top:10em;
-}
-.verifiedBannerBody h1{
-    font-size:2.5rem;
-    font-weight:bold;
-    padding:0.5rem;
-}
-.verifiedBannerBody{
-    width:60%;
-    margin:auto;
-}
-.verifiedBannerBody p{
-    margin:auto;
-    width:55%;
-}
-.verify{
-    margin-top:8rem;
-    text-align:center;
-}
-.verify h3{
-    padding:1.5em;
-    font-weight:bold;
-    
-}
-.verifyPara{
-    text-align:justify;
-    width:70%;
-    margin:auto;
-}
-.checkList{
-    width:70%;
-}
-.verifiedHead{
-    margin-top:8rem;
-   display:flex;
-   align-items:center;
-   height:5rem;
-   padding:0rem 9.2rem;
-    background: linear-gradient(88.83deg, #0072A3 0.04%, #6A6DAA 99.93%);
-    
-}
-.verifiedOrganization{
-    /* padding: 5rem 0em 5rem 5rem; */
-    text-align:center;
-}
-.verifiedOrganization h2{
-    margin-top:3rem;
-    margin-bottom:1rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30em;
+    text-align: center;
+    padding-top: 10em;
 }
 
-.Vcard{
-    /* background-image: url("./images/Verified.png"); */
-    background-color:white;
-    Background-repeat:no-repeat;
+.verifiedBannerBody h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.verifiedBannerBody {
+    width: 60%;
+    margin: auto;
+}
+
+.verifiedBannerBody p {
+    margin: auto;
+    width: 55%;
+}
+
+.verify {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.verify h3 {
+    padding: 1.5em;
+    font-weight: bold;
 
 }
 
+.verifyPara {
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
 
-.form-control{
-    
-    width:30%!important;
+.checkList {
+    width: 70%;
+}
+
+.verifiedHead {
+    margin-top: 8rem;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    height: 5rem;
+    padding: 0rem 9.2rem;
+    background: linear-gradient(88.83deg, #0072A3 0.04%, #6A6DAA 99.93%);
+
 }
-.verifiedHeadpara{
+
+.verifiedOrganization {
+    /* padding: 5rem 0em 5rem 5rem; */
+    text-align: center;
+}
+
+.verifiedOrganization h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.Vcard {
+    /* background-image: url("./images/Verified.png"); */
+    background-color: white;
+    Background-repeat: no-repeat;
+
+}
+
+
+.form-control {
+
+    /* width:30%!important; */
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.verifiedHeadpara {
     display: flex;
     justify-content: flex-end;
-    color:white;
-    margin-bottom:0rem;
+    color: white;
+    margin-bottom: 0rem;
 }
 
-.logoContainer>Img{
-    padding:1em;
-    width:80%;
-    margin:auto;
+.logoContainer>Img {
+    padding: 1em;
+    width: 80%;
+    margin: auto;
     /* width:10em; */
 }
-.btnBottom{
-    margin-top:3.1em;
-    position:sticky;
+
+.btnBottom {
+    margin-top: 3.1em;
+    position: sticky;
 }
-.btnBottom>button:last-child{
+
+.btnBottom>button:last-child {
     padding: 0.4em 1.0em;
-    font-size:0.8em;
+    font-size: 0.8em;
 }
-.btnBottom button{
-    margin:0em 0.5em;
+
+.btnBottom button {
+    margin: 0em 0.5em;
 }
-@media (max-width: 1024px){
-.verifiedBannerBody p{
-    width:65%;
+
+@media (max-width: 1024px) {
+    .verifiedBannerBody p {
+        width: 65%;
+    }
+
+    .verifiedBanner {
+        padding-top: 5em;
+        background-size: cover;
+        height: 25em;
+    }
+
+    .verify {
+        margin-top: 5em;
+
+    }
+
+    .checkList {
+        width: 100%;
+    }
+
 }
-@media (max-width: 992px){
-    .verifiedBannerBody{
-        width:80%;
+
+@media (max-width: 992px) {
+    .mainPage {
+        margin: 0em 3em;
+    }
+
+    .verifiedBannerBody {
+        width: 80%;
+    }
+
+    .verifyPara {
+        width: 100%;
+    }
+
+    .verifiedHead {
+        margin-top: 5em;
+        padding: 0rem 2em;
     }
 }
 
-}
-@media (max-width: 425px){
-    .verifiedBannerBody{
-        width:100%;
+
+@media (max-width: 425px) {
+    .verifiedBannerBody {
+        width: 100%;
+
+
     }
-    .verifiedBannerBody p{
-        width:90%;
+    .mainPage {
+        margin: 0em 2em;
     }
-    .verifiedBannerBody h1{
-        font-size: 2em;
+
+    .verifiedBannerBody p {
+        width: 100%;
+    }
+
+    .verifiedBannerBody h1 {
+        font-size: 1.5em;
+    }
+
+    .verifyPara {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .verify h3 {
+        padding: 0.5em;
+        font-size: 1.5em;
+
+    }
+
+    .verify {
+        margin-top: 2em;
+    }
+
+    .verifiedBanner {
+        height: 15em;
+        padding-top: 2em;
+        background-size: cover;
+    }
+
+    .verifiedHeadpara {
+        font-size: 0.8em;
+    }
+
+    .verifiedOrganization h2 {
+
+        font-size: 1.5em;
     }
 
 }
-@media (max-width: 375px){
-    
-    .verifiedBannerBody h1{
+
+@media (max-width: 375px) {
+
+    .verifiedBannerBody h1 {
         font-size: 1.6em;
+    }
+
+    .verifiedHead {
+        padding: 0rem 1em;
+    }
+
+
+}
+@media(max-width:320px){
+    .mainPage {
+        margin: 0em 1em;
     }
     
 }

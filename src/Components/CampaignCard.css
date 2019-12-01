@@ -74,6 +74,10 @@ text-align:left;
 
 }
 @media (min-width:300px) and (max-width:374.9px){
+    .card-body{
+        padding:1em!important;
+    }
+
     .campaignTitle {
         margin: 1em 0em;
         text-align:center;

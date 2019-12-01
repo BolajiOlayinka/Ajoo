@@ -8,9 +8,9 @@ export default function campaignList({ campaignData }) {
     <React.Fragment>
       {campaignData.map((data, i) => {
         return (
-          <Col lg="6 mt-5" md="6" sm="6" xs="6">
+          <Col lg="6 mt-5" md="6" sm="12" xs="12">
             <Campaign
-              key={i}
+              key={campaignList[i]}
               id={campaignData[i].id}
               cardTitle={campaignData[i].title}
               cardText={campaignData[i].text}

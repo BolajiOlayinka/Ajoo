@@ -1,6 +1,7 @@
 import React from "react";
 import "./Verified.css";
 import "./Components/Button.css";
+import {Link} from 'react-router-dom';
 
 const cardStyle = {
   borderStyle: "none",
@@ -47,7 +48,7 @@ export default function VerifiedCard(props) {
               
             </p>
             <div className="btnBottom">
-              <button className="ashButton">{props.ashButton}</button>
+              <Link to ="/Verified Organizations"> <button className="ashButton">{props.ashButton}</button></Link>
               <button className="blueButton"> {props.blueButton}</button>
             </div>
           </div>

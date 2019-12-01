@@ -11,9 +11,9 @@
 
 .search {
     padding: 0rem 0.5rem;
-    width:40%;
-    height:40%;
-    margin-top:5px;
+    width: 40%;
+    height: 40%;
+    margin-top: 5px;
 }
 
 .nav-link {
@@ -48,14 +48,21 @@
     .navbar {
         padding: 0.5rem 2rem 0.5rem 2rem !important;
     }
-    .navbar-light .navbar-toggler{
-        margin-right:0.5em!important;
+
+    .navbar-light .navbar-toggler {
+        margin-right: 0.5em !important;
     }
 
     .nav-link {
         display: flex !important;
         padding: 0.5rem 0.5rem !important;
         font-size: 0.8rem;
+    }
+
+    @media (max-width: 425px) {
+        .line {
+            display: none;
+        }
     }
 
 }
